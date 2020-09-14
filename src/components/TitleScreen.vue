@@ -5,6 +5,7 @@
             <div v-if="show">
                 <h1>The Joy Luck Club</h1>
                 <h2>A Dynamic Movie Analysis</h2>
+                <p>Best if viewed on a laptop</p>
             </div>
         </transition>
     </b-container>
@@ -23,7 +24,6 @@ export default {
 
 <style scoped>
 h1 {
-    padding-bottom: 30px;
     font-size: 4rem;
     font-weight: bold;
 }
