@@ -5,7 +5,7 @@
             <div v-if="show">
                 <h1>The Joy Luck Club</h1>
                 <h2>A Dynamic Movie Analysis</h2>
-                <p>Best if viewed on a laptop</p>
+                <p>Best if viewed on a laptop/computer</p>
             </div>
         </transition>
     </b-container>
