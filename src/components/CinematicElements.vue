@@ -60,7 +60,7 @@ export default {
                 pin: true,
                 pinSpacing: false,
                 scrub: 1,
-                markers: true,
+                // markers: true,
                 snap: { snapTo: 1 / (sections.length - 1), duration: 0.2 },
                 // base vertical scrolling on how wide the container is so it feels more natural.
                 end: () =>
