@@ -57,14 +57,11 @@ p{
     font-size: 1.2em;
 }
 .parent {
-    /* background-color: pink; */
     display: grid;
     flex: 1;
     position: relative;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    /* grid-column-gap: 2%; */
-    /* margin-top: 100px; */
     margin-bottom: 100px;
 }
 .explanation {
@@ -83,16 +80,13 @@ img {
     object-fit: cover;
 }
 .image {
-    /* max-width: 100%; */
+    max-width: 100%;
     height: 100%;
     overflow: hidden;
     min-width: 0;
     grid-row: 1/3;
     padding-left: 5%;
     padding-right: 5%;
-}
-.image-2 {
-    grid-area: 1 / 5 / 4 / 9;
 }
 .image-3 {
     grid-area: 1 / 9 / 4 / 13;

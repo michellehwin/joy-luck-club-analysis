@@ -51,20 +51,22 @@ export default {
     mounted() {
         console.log(document.querySelector(".carousel").offsetWidth);
         let sections = gsap.utils.toArray(".panel");
+        console.log(sections);
         gsap.to(sections, {
-            xPercent: -100 * (sections.length -1),
+            xPercent: -100 * (sections.length - 1),
             ease: "none",
             scrollTrigger: {
+                markers: true,
                 trigger: ".carousel",
-                start: "center 55%",
+                invalidateOnRefresh: true,
+                // start: "center 55%",
                 pin: true,
                 pinSpacing: false,
                 scrub: 1,
-                // markers: true,
                 snap: { snapTo: 1 / (sections.length - 1), duration: 0.2 },
                 // base vertical scrolling on how wide the container is so it feels more natural.
                 end: () =>
-                    "+=" + document.querySelector(".cinematic-elements").offsetWidth + 1,
+                    "+=" + document.querySelector(".carousel").offsetWidth +" bottom",
             },
         });
     },
@@ -81,6 +83,6 @@ h1 {
     display: flex;
     flex-wrap: nowrap;
     width: 400% !important;
-    height: 100vh !important;
+    height: 100% !important;
 }
 </style>

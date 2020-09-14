@@ -106,9 +106,7 @@ export default {
     padding-bottom: 5rem;
     background-color: #fed9b7;
 }
-p {
-    /* font-size: 1.2em; */
-}
+
 .row {
     padding: 2%;
 }
