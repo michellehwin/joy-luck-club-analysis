@@ -1,16 +1,19 @@
 <template>
-    <b-row class="subtheme" :id=id>
+    <b-row class="subtheme" :id="id">
         <div class="subtheme-description" :style="descriptionStyle">
             <h1>{{themeHeading}}</h1>
             <p>{{themeParagraph}}</p>
         </div>
         <div class="image-front" :style="frontImageStyle">
             <!-- <img src="https://picsum.photos/id/1003/700/400"/> -->
-            <img src="../../public/pink.png" :style="{paddingTop: imagePaddingTop+ 'px'}" />
+            <img
+                :src="require('@/assets/' + imageFront + '')"
+                :style="{paddingTop: imagePaddingTop+ 'px'}"
+            />
         </div>
         <div class="image-bottom" :style="backImageStyle">
             <!-- <img src="https://picsum.photos/id/10/700/400" alt /> -->
-            <img src="../../public/filler.jpg" />
+            <img :src="require('@/assets/' + imageBack + '')" />
         </div>
     </b-row>
 </template>
@@ -22,8 +25,8 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default {
     props: {
-        imageBottom: { default: "../../public/filler.jpg" },
-        imageFront: { default: "../../public/pink.png" },
+        imageBack: { default: "filler.jpg" },
+        imageFront: { default: "filler.jpg" },
         themeHeading: { default: "Lorem Ipsum" },
         themeParagraph: {
             default:
@@ -34,18 +37,20 @@ export default {
         frontImageStart: { default: 2 },
         frontImageSpan: { default: 6 },
         descriptionStart: { default: 1 },
-        descriptionPaddingRight: {default: 15},
-        descriptionPaddingLeft: { default:0},
-        imagePaddingTop: { default:0}
+        descriptionPaddingRight: { default: 15 },
+        descriptionPaddingLeft: { default: 0 },
+        imagePaddingTop: { default: 0 },
+        textLeft: { default: true}
     },
     computed: {
         id: function () {
-            return this.themeHeading.substr(0,this.themeHeading.indexOf(' '));
+            return this.themeHeading.substr(0, this.themeHeading.indexOf(" "));
         },
         backImageStyle: function () {
             return {
                 gridRow: 1,
-                gridColumn: this.backImageStart + "/ span " + this.backImageSpan,
+                gridColumn:
+                    this.backImageStart + "/ span " + this.backImageSpan,
             };
         },
         frontImageStyle: function () {
@@ -59,26 +64,30 @@ export default {
             };
         },
         descriptionStyle: function () {
+            console.log(this.textLeft);
+            let left; this.textLeft ? left = "left" : left = "right";
+            console.log({left});
             return {
-                zIndex:2,
-                gridColumn: this.descriptionStart + "/ span 3",
+                textAlign: left,
+                zIndex: 2,
+                gridColumn: this.descriptionStart + "/ span 4",
                 gridRow: 1,
                 paddingRight: this.descriptionPaddingRight + "px",
-                paddingLeft:this.descriptionPaddingLeft + "px"
+                paddingLeft: this.descriptionPaddingLeft + "px",
             };
         },
     },
     mounted() {
-        console.log(this.id);
+        console.log(this.textLeft);
         gsap.fromTo(
-            "#"+this.id + " .image-bottom",
+            "#" + this.id + " .image-bottom",
             {
                 opacity: 0,
                 duration: 0,
             },
             {
                 scrollTrigger: {
-                    trigger: "#"+this.id +" .image-bottom",
+                    trigger: "#" + this.id + " .image-bottom",
                     start: "top 80%",
                     // markers: true,
                     toggleActions: "restart none none reverse",
@@ -89,14 +98,14 @@ export default {
             }
         );
         gsap.fromTo(
-            "#"+this.id +" .image-front",
+            "#" + this.id + " .image-front",
             {
                 opacity: 0,
                 duration: 0,
             },
             {
                 scrollTrigger: {
-                    trigger: "#"+this.id +" .image-front",
+                    trigger: "#" + this.id + " .image-front",
                     start: "top 80%",
                     // markers: true,
                     toggleActions: "restart none none reverse",
@@ -106,9 +115,9 @@ export default {
                 clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)",
             }
         );
-        gsap.from("#"+this.id +" h1", {
+        gsap.from("#" + this.id + " h1", {
             scrollTrigger: {
-                trigger: "#"+this.id +" h1",
+                trigger: "#" + this.id + " h1",
                 start: "bottom 95%",
                 // markers: true,
                 toggleActions: "restart pause resume reverse",
@@ -118,10 +127,10 @@ export default {
             duration: 0.3,
             y: 30,
         });
-        gsap.from( "#"+this.id +" p", {
+        gsap.from("#" + this.id + " p", {
             scrollTrigger: {
-                trigger: "#"+this.id + " p",
-                start: "bottom 95%",
+                trigger: "#" + this.id + " p",
+                start: "top 80%",
                 // markers: true,
                 toggleActions: "restart pause resume reverse",
             },
@@ -142,9 +151,9 @@ export default {
     padding-bottom: 5%;
 }
 
-p{
+/* p {
     font-size: 1.2em !important;
-}
+} */
 img {
     width: 100%;
     display: block;

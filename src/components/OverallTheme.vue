@@ -3,7 +3,7 @@
         <b-row align-h="center">
             <b-col cols="9">
                 <h1>Theme</h1>
-                <p>The American dream implies that in order to be succesful, you most conform towards the culture of white people.</p>
+                <p>The American dream implies that in order to be succesful, immigrants must erase their natal traditions and conform to "white" culture.</p>
             </b-col>
         </b-row>
     </b-container>
@@ -24,7 +24,7 @@ export default {
                 toggleActions: "restart pause resume reverse",
             },
             opacity: 0,
-            duration: .5,
+            duration: 0.5,
             xPercent: -50,
         });
     },
@@ -38,9 +38,17 @@ export default {
 h1 {
     font-weight: 600;
     font-style: italic;
-    font-size: 4em;
+    font-size: 3em;
 }
 p {
-    font-size: 2rem;
+    font-size: 1.2rem;
+}
+@media (min-width: 992px) {
+    h1 {
+        font-size: 4rem;
+    }
+    p {
+        font-size: 2rem;
+    }
 }
 </style>

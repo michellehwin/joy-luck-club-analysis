@@ -24,8 +24,13 @@ export default {
 <style scoped>
 h1 {
     padding-bottom: 30px;
-    font-size: 10em;
+    font-size: 4rem;
     font-weight: bold;
+}
+@media (min-width: 992px) {
+    h1 {
+        font-size: 10rem;
+    }
 }
 .container-fluid {
     padding-top: 20%;
