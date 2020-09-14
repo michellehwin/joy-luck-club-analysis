@@ -1,28 +1,35 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <div id="app">
+        <TitleScreen />
+        <OverallTheme />
+        <SubThemes />
+        <PlotPoints />
+        <CinematicElements />
+    </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+// import HelloWorld from './components/HelloWorld.vue'
+import TitleScreen from "./components/TitleScreen.vue";
+import OverallTheme from "./components/OverallTheme.vue";
+import SubThemes from "./components/SubThemes.vue";
+import CinematicElements from "./components/CinematicElements.vue";
+import PlotPoints from "./components/PlotPoints.vue";
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+    name: "App",
+    components: {
+        CinematicElements,
+        PlotPoints,
+        OverallTheme,
+        TitleScreen,
+        SubThemes,
+    },
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+body {
+    background-color: #cd5c5c !important;
+    font-family: 'Poppins', sans-serif !important;
 }
 </style>
