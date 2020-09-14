@@ -83,7 +83,7 @@ export default {
                 endTrigger: "#fourth-point",
                 end: "center 10%",
                 scrub: 1,
-                markers: true,
+                // markers: true,
             },
         });
     },
