@@ -4,25 +4,25 @@
         <b-row class="plot-point">
             <b-col col lg="5" id="first-point">
                 <h1>Rose's encounter with racism</h1>
-                <p>Rose attended an event with Ted, her rich, white boyfriend, and met his parents for the first time. Ted's mother implied that because she was asian, she would bring shame to Ted's family because the people in high society aren't open-minded enough to accept the people of her race. This logically reinforces the idea that the American dream is one slanted towards white culture and gives credibility to the movie because it shows an example of racism that many members of the audience have experienced. It also makes us hope that Rose and Ted will defy the norms and marry for love, not social status.</p>
+                <p>Rose attended an event with Ted, her rich, white boyfriend, and met his parents for the first time. Ted's mother implied that because she was asian, she would bring shame to Ted's family if they married because the people in high society aren't open-minded enough to accept the people of her race. This logically reinforces the idea that the American dream is one slanted towards white culture and gives credibility to the movie because it shows an example of racism that many members of the audience have experienced or seen. It also makes us hope that Rose and Ted will defy the norms and marry for love, not social status.</p>
             </b-col>
         </b-row>
         <b-row align-h="end" class="text-right plot-point">
             <b-col col lg="5" id="second-point">
                 <h1>June and her mother make up</h1>
-                <p>One night when the Joy Luck Club gathers, Waverly and June get into an argument about June's sub-par work in front of the entire table. June's mother doesn't back her up and implies that Waverly has more style than her. The day after, June tells her mother that she was never enough for her. Suyuan tells her that she's wrong and that she has something that is unique and geniune: kindness. The turning point between June and her mother asserts the mother-daughter relationship that is always there.</p>
+                <p>One night when the Joy Luck Club gathers, Waverly and June get into an argument about June's sub-par work in front of the entire table. June's mother doesn't back her up and implies that Waverly has more style than her. The day after, June tells her mother that she was never enough for her. Suyuan tells her that she's wrong and that she has something that is unique and geniune: kindness. The turning point between June and her mother asserts the mother-daughter relationship that is always there. The audience is happy to see them understand each other.</p>
             </b-col>
         </b-row>
         <b-row class="plot-point">
             <b-col col lg="5" id="third-point">
                 <h1>Waverly "fixes" her mom's hair</h1>
-                <p>The day of Waverly's wedding, Waverly meets her mom at an upscale salon for an appointment. Her mom accuses her of being embarrased of her, not even letting her have her Chinese-style perm in front of her white husband's family. Lindo's accusation reveals her insecurity that she is losing her daughter to the American culture, providing credibility to the main theme by portraying an example of an immigrant turning towards American culture.</p>
+                <p>The day of Waverly's wedding, Waverly meets her mom at an upscale salon for an appointment. Her mom accuses her of being embarrased of her, not even letting her have her Chinese-style perm in front of her white husband's family. Lindo's accusation reveals her insecurity that she is losing her daughter to the American culture, providing credibility to the main theme by portraying an example of an immigrant turning towards American culture. After Lindo tells Waverly of her past, they understand each other better and bond emotionally. By starting with the conflict of her mom's hair and leading to their eventual reconciliation, the movie enstills hope into the audience and makes us see that these bridges can be crossed.</p>
             </b-col>
         </b-row>
         <b-row align-h="end" class="text-right plot-point">
             <b-col col lg="5" id="fourth-point">
                 <h1>Ying-Ying shares her story with Lena</h1>
-                <p>Ying-Ying breaks a vase in Lena's bedroom, causing Lena to come to her mom and confront the unhappiness of her marriage. In trying to obtain happiness, Lena forgot who she was. After talking with her mother and learning about her past, Lena knows the first steps in gaining freedom and divorces Harold. After seeing Lena successfully leave a damaging marriage, the audience is enstilled with hope for the daughters. This point in the movie also gives credibility to the mothers and their experiences and proves that the daughters can gain a lot by listening to their mothers. </p>
+                <p>Ying-Ying breaks a vase in Lena's bedroom, causing Lena to come to her mom and confront the unhappiness of her marriage. In trying to obtain happiness, Lena forgot who she was. After talking with her mother and learning about her past, Lena knows the first steps in gaining freedom and divorces Harold. After seeing Lena successfully leave a damaging marriage, the audience is enstilled with hope for the daughters' futures. This point in the movie also gives credibility to the mothers and their experiences and proves that the daughters can gain a lot by listening to their mothers. </p>
             </b-col>
         </b-row>
     </b-container>
