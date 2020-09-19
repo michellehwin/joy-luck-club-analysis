@@ -56,12 +56,12 @@ export default {
             xPercent: -100 * (sections.length - 1),
             ease: "none",
             scrollTrigger: {
-                markers: true,
+                // markers: true,
                 trigger: ".carousel",
                 invalidateOnRefresh: true,
                 // start: "center 55%",
                 pin: true,
-                pinSpacing: false,
+                // pinSpacing: false,
                 scrub: 1,
                 snap: { snapTo: 1 / (sections.length - 1), duration: 0.2 },
                 // base vertical scrolling on how wide the container is so it feels more natural.
