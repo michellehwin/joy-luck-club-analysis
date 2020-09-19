@@ -26,6 +26,7 @@ export default {
 h1 {
     font-size: 4rem;
     font-weight: bold;
+    padding-bottom: 1rem;
 }
 @media (min-width: 992px) {
     h1 {
