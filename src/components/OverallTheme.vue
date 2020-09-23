@@ -24,7 +24,7 @@ export default {
                 toggleActions: "restart pause resume reverse",
             },
             opacity: 0,
-            duration: 0.5,
+            duration: 0.3,
             xPercent: -50,
         });
     },

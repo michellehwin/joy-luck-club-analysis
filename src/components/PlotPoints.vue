@@ -16,13 +16,13 @@
         <b-row class="plot-point">
             <b-col col lg="5" id="third-point">
                 <h1>Waverly "fixes" her mom's hair</h1>
-                <p>The day of Waverly's wedding, Waverly meets her mom at an upscale salon for an appointment. Her mom accuses her of being embarrased of her, not even letting her have her Chinese-style perm in front of her white husband's family. Lindo's accusation reveals her insecurity that she is losing her daughter to the American culture, providing credibility to the main theme by portraying an example of an immigrant turning towards American culture. After Lindo tells Waverly of her past, they understand each other better and bond emotionally. By starting with the conflict of her mom's hair and leading to their eventual reconciliation, the movie enstills hope into the audience and makes us see that these bridges can be crossed.</p>
+                <p>The day of Waverly's wedding, Waverly meets her mom at an upscale salon for an appointment. Her mom accuses her of being embarrased of her, not even letting her have her Chinese-style perm in front of her white husband's family. Lindo's accusation reveals her insecurity that she is losing her daughter to the American culture, providing credibility to the main theme by portraying an example of an immigrant turning towards American culture. After Lindo tells Waverly of her past, they understand each other better and bond emotionally. By starting with the conflict of her mom's hair and leading to their eventual reconciliation, the movie instills hope into the audience and makes us see that these bridges can be crossed.</p>
             </b-col>
         </b-row>
         <b-row align-h="end" class="text-right plot-point">
             <b-col col lg="5" id="fourth-point">
                 <h1>Ying-Ying shares her story with Lena</h1>
-                <p>Ying-Ying breaks a vase in Lena's bedroom, causing Lena to come to her mom and confront the unhappiness of her marriage. In trying to obtain happiness, Lena forgot who she was. After talking with her mother and learning about her past, Lena knows the first steps in gaining freedom and divorces Harold. After seeing Lena successfully leave a damaging marriage, the audience is enstilled with hope for the daughters' futures. This point in the movie also gives credibility to the mothers and their experiences and proves that the daughters can gain a lot by listening to their mothers. </p>
+                <p>Ying-Ying breaks a vase in Lena's bedroom, causing Lena to come to her mom and confront the unhappiness of her marriage. In trying to obtain happiness, Lena forgot who she was. After talking with her mother and learning about her past, Lena knows the first steps in gaining freedom and divorces Harold. After seeing Lena successfully leave a damaging marriage, the audience is instilled with hope for the daughters' futures. This point in the movie also gives credibility to the mothers and their experiences and proves that the daughters can gain a lot by listening to their mothers. </p>
             </b-col>
         </b-row>
     </b-container>
