@@ -55,10 +55,10 @@ export default {
         },
         frontImageStyle: function () {
             return {
-                gridRow: 1,
+                gridRow: 2,
                 gridColumn:
                     this.frontImageStart + "/ span " + this.frontImageSpan,
-                paddingTop: "60%",
+                // paddingTop: "60%",
                 paddingBottom: "10%",
                 zIndex: 1,
             };
@@ -148,12 +148,13 @@ export default {
     display: grid;
     position: relative;
     grid-template-columns: repeat(12, 1fr);
+    grid-template-row: repeat(2,1fr);
     padding-bottom: 5%;
 }
 
-/* p {
+p {
     font-size: 1.2em !important;
-} */
+}
 img {
     width: 100%;
     display: block;
